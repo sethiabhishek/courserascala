@@ -13,4 +13,7 @@ object Main extends App {
 
   println(result)
 
+  println(x.less(y))
+  println(x.max(that = y))
+
 }
