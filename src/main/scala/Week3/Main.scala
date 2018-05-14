@@ -9,7 +9,7 @@ object Main extends App {
   val z = new Rational(3, 2)
   println(z)
 
-  val result = (x - y) - z
+  val result: Rational = x.sub(that = y).sub(that = z)
 
   println(result)
 
