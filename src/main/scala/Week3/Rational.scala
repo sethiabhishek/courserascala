@@ -1,7 +1,7 @@
 package Week3
 
 class Rational(val x: Int, val y: Int) {
-  require(y ! = 0, "denominator should not be zero")
+  require(y != 0, "denominator should not be zero")
   val numer: Int = x
   val denom: Int = y
 
