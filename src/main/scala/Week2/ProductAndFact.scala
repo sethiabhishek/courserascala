@@ -17,4 +17,10 @@ object ProductAndFact extends App {
   println("curried factorials")
   println(curriedFact(5))
 
+  //generalised product via currying
+  val gProduct = mapReduceProduct(x => x * x)(1, 3)
+
+  println(gProduct)
+
+
 }
