@@ -1,4 +1,4 @@
-Related to super , subtype bounds relation
+Related to super , subtype bounds relation.
 suppose a method needs to be presented in a list which will return 
 the argument itself if non empty or an exception if any of the element 
 is less than zero
